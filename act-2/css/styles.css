@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Menú de navegación */
+nav ul {
+  list-style: none;
+  background: #388e3c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Secciones */
+section {
+  padding: 20px;
+  background: white;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Imágenes uniformes */
+img {
+  width: 400px;       /* todas tendrán el mismo ancho */
+  height: 250px;      /* todas tendrán el mismo alto */
+  object-fit: cover;  /* recorta proporcionalmente */
+  display: block;
+  margin: 15px auto;  /* centra la imagen */
+  border-radius: 6px; /* esquinas redondeadas */
+}
+
+/* Footer */
+footer {
+  background: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
